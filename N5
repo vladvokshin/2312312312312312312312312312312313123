@@ -1,0 +1,13 @@
+import 'dart:io';
+
+void main() {
+  print('Введите число:');
+  String? input = stdin.readLineSync(); 
+  int number = int.parse(input!);        
+
+  print('Таблица умножения для числа $number:');
+
+  for (int i = 1; i <= 10; i++) {
+    print('$number x $i = ${number * i}');
+  }
+}
