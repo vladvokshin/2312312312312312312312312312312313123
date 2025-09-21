@@ -1,0 +1,12 @@
+void main() {
+   //int num = 13;
+ int num = 10;
+  //int num = 9;
+  //int num = 192;
+
+  if (num % 2 == 0) {
+    print('$num — чётное число');
+  } else {
+    print('$num — нечётное число');
+  }
+}
